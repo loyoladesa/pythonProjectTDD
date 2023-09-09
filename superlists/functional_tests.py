@@ -18,9 +18,4 @@ if __name__ == '__main__':
     unittest.main(warnings='ignore')
 
 
-browser = webdriver.Firefox()
-browser.get('http://localhost:8000')
 
-assert 'To-Do' in browser.title
-
-browser.quit()
